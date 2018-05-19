@@ -21,7 +21,7 @@ clog*
 .metadata
 transcript
 *.wlf
-syn/
+syn
 syn/*
 work/
 work/*
@@ -31,5 +31,4 @@ work/*
 *.mem
 *.hex
 a23/tools/amber-elfsplitter*.scd
-*.v
 *.scd.map
