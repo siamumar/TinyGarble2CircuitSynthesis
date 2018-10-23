@@ -31,4 +31,4 @@ work/*
 *.mem
 *.hex
 a23/tools/amber-elfsplitter*.scd
-*.scd.map
+*.scd*
