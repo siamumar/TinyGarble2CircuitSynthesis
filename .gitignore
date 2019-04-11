@@ -32,3 +32,4 @@ work/*
 *.hex
 a23/tools/amber-elfsplitter*.scd
 *.scd*
+*syn_all*
