@@ -33,3 +33,5 @@ work/*
 a23/tools/amber-elfsplitter*.scd
 *.scd*
 *syn_all*
+*TG_SynLib*
+*modelsim.ini*
