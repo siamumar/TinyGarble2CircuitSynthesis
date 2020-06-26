@@ -36,7 +36,7 @@ The module structure is as follows.
 7. o (MSB of o is the wire with the highest index)
 ```
 
-## Circuit Format (slightly modified from EMP Toolkit)
+## EMP Format (slightly modified from EMP Toolkit)
 ```
 num_gate num_wire
 n1 n1_0 n2 n2_0 n3
