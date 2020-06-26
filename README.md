@@ -1,4 +1,4 @@
-Circuit Synthesis for the TinyGarble2: Smart, Efficient, and Scalable Yao's Garbled Circuit. 
+Circuit Synthesis for the TinyGarble2.
 =======
 
 This repository contains the synthesis library (from the original [TinyGarble](https://github.com/esonghori/TinyGarble) [1]) and the Verilog source code for the program interface of the TinyGarble2 framework. 
