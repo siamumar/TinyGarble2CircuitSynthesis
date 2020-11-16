@@ -91,5 +91,3 @@ module hamming
 	
 
 endmodule
-
-

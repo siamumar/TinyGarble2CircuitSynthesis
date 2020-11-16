@@ -1,9 +1,8 @@
 yosys -import
 
-#foreach N [list 1] {
 for {set N 1} {$N < 65} {incr N} {
-	read_verilog -defer ../../SynthesisLibrary/syn_lib/*.v 
-	read_verilog -defer -sv  add.sv
+	read_verilog -overwrite -defer ../../SynthesisLibrary/syn_lib/*.v 
+	read_verilog -overwrite -defer -sv  add.sv
 	hierarchy -check -top add -chparam N $N 
 	procs; opt; flatten; opt; 
 	techmap; opt;

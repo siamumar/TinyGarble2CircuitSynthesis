@@ -10,5 +10,4 @@ module sqrt #(parameter N = 8)(
 		.O(o)
 	);
 		
-
 endmodule

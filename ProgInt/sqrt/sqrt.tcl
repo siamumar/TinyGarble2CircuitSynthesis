@@ -1,10 +1,8 @@
 yosys -import
 
-#for {set N 1} {$N < 4} {incr N} {
-
-foreach N [list 8 16 32 64] {
-	read_verilog -defer ../../SynthesisLibrary/syn_lib/*.v 
-	read_verilog -defer -sv  sqrt.sv
+for {set N 1} {$N < 65} {incr N} {
+	read_verilog -overwrite -defer ../../SynthesisLibrary/syn_lib/*.v 
+	read_verilog -overwrite -defer -sv  sqrt.sv
 	hierarchy -check -top sqrt -chparam N $N 
 	procs; opt; flatten; opt; 
 	techmap; opt;
